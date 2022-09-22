@@ -1,0 +1,240 @@
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  margin: 1%;
+}
+
+a {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  color: #000000de;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:active {
+  color: #000000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-bar {
+  display: flex;
+  z-index: 3;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: calc(632px + 6px);
+  width: 565px;
+  max-width: 584px;
+  margin-top: 27px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+  padding: 5px 8px 0px 14px;
+}
+
+.rounded-bar:hover {
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+.rounded-bar:focus {
+  outline: none !important;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+.padding-text input[type="text"] {
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  top: 19px;
+}
+
+.button:hover {
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+.button:focus {
+  outline: none !important;
+  border: 1px solid #4285f4;
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-2 {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  min-height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-image-1 {
+  height: 100%;
+  margin-top: auto;
+  max-height: 92px;
+  position: relative;
+}
+
+.google-image-2 {
+  height: 100%;
+  margin-top: auto;
+  max-height: 92px;
+  position: relative;
+}
+
+.images {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+  white-space: nowrap;
+}
+
+header {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  color: #d93025;
+  margin: 43px 35px;
+}
+
+.horizontal-bar {
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+  top: -19px;
+}
+
+h2 {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  min-height: 42px;
+  font-weight: 500;
+  vertical-align: middle;
+  font-size: 100%;
+  vertical-align: baseline;
+  position: relative;
+  top: 15px;
+  left: 37px;
+}
+
+.advanced-search-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: -15px;
+  left: 37px;
+}
+
+.advanced-search-prompt {
+  width: 167px;
+  height: 42px;
+}
+
+.advanced-search-input {
+  width: 345px;
+  height: 20px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  background: #ffffff;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  position: relative;
+  top: 3px;
+  left: 12px;
+}
+
+.advanced-search-input:focus {
+  outline: none !important;
+  border: 1px solid #4285f4;
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+p {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: #222;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.advanced-search-button {
+  width: 120px;
+  height: 30px;
+  padding: 0 12px;
+  margin: 10px 0;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border-radius: 2px;
+  border: 1px solid #3079ed;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  position: relative;
+  top: -7px;
+  left: 459px;
+}
+.advanced-search-button:hover {
+  background-color: #3480fe;
+  color: #ffffff;
+}
